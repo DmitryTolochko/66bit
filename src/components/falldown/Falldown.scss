@@ -1,0 +1,29 @@
+.falldown {
+    border-top: 1px solid rgb(21, 93, 164);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+
+    padding: 20px;
+    display: grid;
+    gap: 16px;
+    width: fit-content;
+
+    position: absolute;
+    // margin-left: -318px;
+    
+    margin-top: 20px;
+}
+
+.falldown > p {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    white-space:nowrap;
+}
+
+.falldown-wrapper {
+    position: inherit;
+    margin-left: -32px;
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,58 @@
+.menu-wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 28px 0;
+
+    @media screen and (min-device-width: 748px) and (max-width: 1560px){
+        justify-content: start;
+        width: fit-content;
+    }
+
+    @media screen and (max-width: 747px){
+        justify-content: start;
+        width: fit-content;
+    }
+}
+
+.menu {
+    margin: 0 auto;
+    width: 1560px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    @media screen and (min-device-width: 748px) and (max-width: 1560px){
+        width: fit-content;
+        margin-left: 24px;
+    }
+
+    @media screen and (max-width: 747px){
+        width: fit-content;
+        margin-left: 24px;
+    }
+}
+
+.menu-option {
+    color: rgb(176, 176, 176);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+
+    @media screen and (min-device-width: 748px) and (max-width: 1560px){
+    }
+
+    @media screen and (max-width: 747px){
+        font-size: 12px;
+    }
+}
+
+.active {
+    visibility: visible;
+}
+
+.menu-option:hover {
+    color: black;
+}

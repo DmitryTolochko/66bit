@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    color: rgb(41, 41, 41);
+    margin-top: 100px;
+    @media screen and (max-width: 747px){
+        margin-top: 54px;
+    }
+}
+
+a {
+    color: rgb(41, 41, 41);
+}
+
+.dark-background {
+    background: rgb(41, 41, 41);
+}
+
+.light-text {
+    color: rgb(245, 245, 245);
+}
+
+p {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+
+    @media screen and (max-width: 747px){
+        font-size: 12px;
+    }
+}
+
+.dark-shadow {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.lighter-dark {
+    background: rgb(62, 62, 62);
+}
+
+.light-icon {
+    filter:grayscale(100) brightness(100);
+}
+
+.thin-p {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+
+    @media screen and (max-width: 747px){
+        font-size: 20px;
+    }
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 600;
+
+    @media screen and (max-width: 747px){
+        font-size: 16px;
+    }
+}
+
+h4 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    width: 262px;
+
+    @media screen and (max-width: 747px){
+        font-size: 14px;
+        width: 154px;
+    }
+}

@@ -1,0 +1,22 @@
+.tag {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+
+    width: fit-content;
+    height: fit-content;
+
+    @media screen and (max-width: 747px){
+        font-size: 12px;
+    }
+}
+
+.tag:hover {
+    background: rgb(248, 248, 248);
+    cursor: pointer;
+}
