@@ -22,8 +22,13 @@
 }
 
 .falldown-wrapper {
+    z-index: 1;
     position: inherit;
     margin-left: -32px;
     display: flex;
     justify-content: end;
+
+    @media screen and (max-width: 747px){
+        justify-content: space-evenly;
+    }
 }
